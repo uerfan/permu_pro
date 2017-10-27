@@ -43,11 +43,12 @@ int main(int argc, char** argv){
 
 	}
 
-	//int r=2;
+	
 	count=generate_permutations_by_increase(n);
 	printf("Permutations(%d)=%ld\n",n,count);
-	//print_array_line(get_permutation_by_rank_increase(n,0),n);
-	//print_array_line(get_permutation_by_rank_increase(n,r),n);
+	//int r=2;
+	//print_array_line(get_rth_permutation_by_increase(n,0),n);
+	//print_array_line(get_rth_permutation_by_increase(n,r),n);
 
 	return 0;
 
