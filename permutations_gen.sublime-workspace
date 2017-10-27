@@ -1,0 +1,443 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"get_permutation_by_rank_increase\t(permutation.h)"
+			],
+			[
+				"print",
+				"print_array_line\t(permutation.h)"
+			],
+			[
+				"ra",
+				"rank"
+			],
+			[
+				"new",
+				"newp"
+			],
+			[
+				"rank",
+				"rank_plus"
+			],
+			[
+				"stri",
+				"strideA"
+			],
+			[
+				"str",
+				"strideB"
+			],
+			[
+				"_mm",
+				"_mm_add_ps\t(mmfast.h)"
+			],
+			[
+				"matrx",
+				"matrix_gen_init\t(mmWinogradtest.c)"
+			],
+			[
+				"ma",
+				"matrix_gen_random\t(mmWinogradtest.c)"
+			],
+			[
+				"m_blk",
+				"m_blk_size_B"
+			],
+			[
+				"matr",
+				"matrix_fwriter\t(mmWinogradtest.c)"
+			],
+			[
+				"size",
+				"sizeof"
+			],
+			[
+				"st",
+				"strideC"
+			],
+			[
+				"stride",
+				"strideB"
+			],
+			[
+				"matrix_f",
+				"matrix_fwriter\t(mmio.h)"
+			],
+			[
+				"matrix_gen",
+				"matrix_gen_init\t(mmgen.h)"
+			],
+			[
+				"blk",
+				"blk_size"
+			],
+			[
+				"first",
+				"first_time"
+			],
+			[
+				"fi",
+				"first_time"
+			],
+			[
+				"time",
+				"time_end"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "permutation.h",
+			"settings":
+			{
+				"buffer_size": 1953,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Makefile",
+			"settings":
+			{
+				"buffer_size": 115,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main.c",
+			"settings":
+			{
+				"buffer_size": 1204,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 338.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jeffly/Documents/THU2017/Classes/组合数学/permutations_generator"
+	],
+	"file_history":
+	[
+		"/Users/jeffly/Documents/THU2017/Classes/组合数学/permutations_generator/Makefile.make",
+		"/Users/jeffly/Downloads/全排列生成算法/permutation.h",
+		"/Users/jeffly/Downloads/全排列生成算法/Dictionary_Neighbour_inductIncrease_inductDecrease.cpp",
+		"/Users/jeffly/Downloads/百度云/Java_LongFormASR_2.0.0001.0/lfasr-sdk-demo/src/com/iflytek/msp/lfasr/TestLfasr.java",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/hpcl_mm_project/hpcl_matrix_generator/test/ssetest.c",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/hpcl_mm_project/hpcl_matrix_generator/mmgentest.c",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/hpcl_mm_project/hpcl_matrix_generator/mmWinogradtest.c",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/hpcl_mm_project/hpcl_matrix_generator/makefile",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/hpcl_mm_project/hpcl_matrix_generator/mmfast.h",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/hpcl_mm_project/hpcl_matrix_generator/mmio.h",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/hpcl_mm_project/hpcl_matrix_generator/mmBaseSeq.c",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/hpcl_mm_project/hpcl_matrix_generator/mmgen.h",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/hpcl_mm_project/hpcl_matrix_generator/fmatrix/mat5.csv",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/hpcl_mm_project/hpcl_matrix_generator/bin/mmgentest",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/hpcl_mm_project/hpcl_matrix_generator/bin/mmgen",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/hpcl_mm_project/CoppersmithWinograd/cw.h",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/hpcl_mm_project/hpcl_matrix_generator/mmgen.c",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/MPI/mpi_hello.c",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/tutorials/mpi_hello.c",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/tutorials/workshare1.c",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/tutorials/omp_hello.c",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/tutorials/omp_bug1",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/tutorials/omp_getEnvInfo.c",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/tutorials/omp_dotprod_serial.c",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/tutorials/omp_dotprod_openmp.c",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/tutorials/omp_bug1.c",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/tutorials/omp_mm.c",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/tutorials/workshare2.c",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/tutorials/omp_reduction.c",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/opemmp/case1.c",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/opemmp/makefile",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/opemmp/example1.c",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/projects/case1.c",
+		"/Users/jeffly/Desktop/test.py",
+		"/Users/jeffly/Documents/THU2017/Classes/Six.java",
+		"/Users/jeffly/Documents/THU2017/Classes/高等计算机系统结构/高等计算机系统结构-课程笔记",
+		"/Users/jeffly/Documents/THU2017/Classes/高等计算机系统结构/高等计算机系统结构-课程notes.md",
+		"/Users/jeffly/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/MultiMarkdown.sublime-settings",
+		"/Users/jeffly/Documents/THU2017/Classes/高等计算机系统结构/高等计算机系统结构-课程notes",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/作业",
+		"/Users/jeffly/Documents/THU2017/Classes/高性能计算实验/高性能计算实验/class-notes",
+		"/Users/jeffly/Documents/THU2017/CSSec/docker/course-vul.sh",
+		"/Users/jeffly/Documents/THU2017/CSSec/docker/stack_exp/exit.c",
+		"/Users/jeffly/Documents/THU2017/CSSec/docker/stack_exp/example1.c",
+		"/Users/jeffly/Documents/THU2017/CSSec/docker/stack_exp/shellcode.c",
+		"/Users/jeffly/Documents/THU2017/CSSec/docker/stack_exp/example3.c",
+		"/Users/jeffly/Documents/THU2017/CSSec/docker/stack_exp/example2.c",
+		"/Users/jeffly/Documents/THU2017/CSSec/docker/course-vul",
+		"/Users/jeffly/Documents/GitHub/MiniCRT/64bit/minicrt.h",
+		"/Users/jeffly/Documents/GitHub/MiniCRT/64bit/malloc.c",
+		"/Users/jeffly/Documents/GitHub/MiniCRT/64bit/stdio.c",
+		"/Users/jeffly/Documents/GitHub/MiniCRT/64bit/entry.c",
+		"/Users/jeffly/Documents/GitHub/MiniCRT/64bit/string.c"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 94.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"_ps",
+			"__m128",
+			"mm_cw",
+			"blk_size * blk_size",
+			"stride",
+			"N/2",
+			"\t\n",
+			"time_val",
+			"printf",
+			"color",
+			"free"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"_pd",
+			"__m128d",
+			"mm_Winograd",
+			"blk_matrix_size",
+			"blk_size",
+			"stride",
+			"timeval"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "permutation.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1953,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1335,
+								1335
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 238.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								30,
+								30
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Makefile/Makefile.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "main.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								802,
+								802
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 97.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 24.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "permutations_gen.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 239.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
