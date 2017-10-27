@@ -11,7 +11,7 @@ int main(int argc, char** argv){
 		return 1;
 	}
 
-	int c,n,algo = 2;
+	int c,n,algo = -1;
 	
 	while ((c = getopt(argc, argv, "n:a:h")) >= 0) {
 		if (c == 'n') n = atoi(optarg);
@@ -36,16 +36,22 @@ int main(int argc, char** argv){
 	switch(algo){
 		case 0:
 		case 1:
+			count=generate_permutations_by_increase(n);
+			printf("[+]Increase,Permutations(%d)=%ld\n",n,count);
+			break;
 		case 2:
+			count=generate_permutations_by_decrease(n);
+			printf("[+]Decrease,Permutations(%d)=%ld\n",n,count);
+			break;
 		case 3:
 		default:
+			count=generate_permutations_by_decrease(n);
+			printf("[+] Default Decrease,Permutations(%d)=%ld\n",n,count);
+			break;
 			break;
 
 	}
 
-	
-	count=generate_permutations_by_increase(n);
-	printf("Permutations(%d)=%ld\n",n,count);
 	//int r=2;
 	//print_array_line(get_rth_permutation_by_increase(n,0),n);
 	//print_array_line(get_rth_permutation_by_increase(n,r),n);
