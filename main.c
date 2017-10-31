@@ -35,6 +35,9 @@ int main(int argc, char** argv){
 
 	switch(algo){
 		case 0:
+		    count = generate_permutations_by_dict(n);
+		    printf("[+]Dictionary,Permutations(%d)=%ld\n",n,count);
+			break;
 		case 1:
 			count=generate_permutations_by_increase(n);
 			printf("[+]Increase,Permutations(%d)=%ld\n",n,count);

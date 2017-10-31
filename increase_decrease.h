@@ -6,6 +6,7 @@ Generate full permutations of N(length of numbers)
  */
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 
 void print_array_line(int* permutations,int N){
 	int i;
