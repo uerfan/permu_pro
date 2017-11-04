@@ -189,5 +189,35 @@ int* get_rth_permutation_by_decrease(int N,int r){
 	return permutations;
 }
 
+void permutation_to_rank_increase(int* permutation,int* rank,int N)
+{
+	memset(rank,0,N*sizeof(int));
+	for(int i=0;i<N;i++){
+		int idx = permutation[i]-2;
+		if(idx<0) continue;
+		for(int j=i+1;j<N;j++){
+			if(permutation[j]<permutation[i]){
+				rank[idx]++;
+			}
+		}
+	}
+}
+
+int get_next_permutation_by_increase(int* old,int* new,int N){
+	int* rank=(int*)malloc(N*sizeof(int));
+	permutation_to_rank_increase(old,rank,N);
+	//print_array_line(rank,N);
+	if(rank_increase_plus(rank,N-1)==1){
+		//print_array_line(rank,N);
+		transform_rank_to_permutation_increase(rank,new,N);
+		free(rank);
+		return 1;
+	}
+	else{
+		free(rank);
+		return 0;
+	}
+}
+
 
 #endif

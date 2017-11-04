@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"increase\t(main.c)"
+			],
+			[
 				"get",
 				"get_permutation_by_rank_increase\t(permutation.h)"
 			],
@@ -92,29 +96,19 @@
 	"buffers":
 	[
 		{
-			"file": "permutation.h",
+			"file": "increase_decrease.h",
 			"settings":
 			{
-				"buffer_size": 1953,
+				"buffer_size": 3544,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Makefile",
+			"file": "dict.h",
 			"settings":
 			{
-				"buffer_size": 115,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "main.c",
-			"settings":
-			{
-				"buffer_size": 1204,
-				"encoding": "UTF-8",
+				"buffer_size": 963,
 				"line_ending": "Unix"
 			}
 		}
@@ -126,16 +120,20 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 338.0,
-		"last_filter": "install",
+		"height": 342.0,
+		"last_filter": "Package Control: ins",
 		"selected_items":
 		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 467.0
+		"width": 431.0
 	},
 	"console":
 	{
@@ -161,6 +159,11 @@
 	],
 	"file_history":
 	[
+		"/Users/jeffly/Documents/THU2017/Classes/组合数学/permutations_generator/permutation.h",
+		"/Users/jeffly/Documents/THU2017/Classes/组合数学/permutations_generator/main.c",
+		"/Users/jeffly/Documents/THU2017/Classes/组合数学/permutations_generator/Makefile",
+		"/Users/jeffly/Documents/THU2017/Classes/组合数学/permutations_generator/main",
+		"/Users/jeffly/Documents/THU2017/Classes/组合数学/permutations_generator/increase_decrease.h",
 		"/Users/jeffly/Documents/THU2017/Classes/组合数学/permutations_generator/Makefile.make",
 		"/Users/jeffly/Downloads/全排列生成算法/permutation.h",
 		"/Users/jeffly/Downloads/全排列生成算法/Dictionary_Neighbour_inductIncrease_inductDecrease.cpp",
@@ -217,7 +220,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -232,6 +235,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"transform_rank_to_permutation",
 			"_ps",
 			"__m128",
 			"mm_cw",
@@ -250,6 +254,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"transform_rank_to_permutation_increase",
 			"_pd",
 			"__m128d",
 			"mm_Winograd",
@@ -267,32 +272,34 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "permutation.h",
+					"file": "increase_decrease.h",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1953,
+						"buffer_size": 3544,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1335,
-								1335
+								735,
+								735
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++/C++.sublime-syntax"
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 238.0,
+						"translation.y": 366.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -300,56 +307,28 @@
 				},
 				{
 					"buffer": 1,
-					"file": "Makefile",
-					"semi_transient": false,
+					"file": "dict.h",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 115,
+						"buffer_size": 963,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								30,
-								30
+								243,
+								243
 							]
 						],
 						"settings":
 						{
 							"origin_encoding": "ASCII",
-							"syntax": "Packages/Makefile/Makefile.sublime-syntax"
+							"syntax": "Packages/C++/C++.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "main.c",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1204,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								802,
-								802
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 97.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -397,7 +376,7 @@
 	"project": "permutations_gen.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":

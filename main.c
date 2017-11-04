@@ -1,5 +1,5 @@
 #include "permutation.h"
-
+#include "similar.h"
 #include <unistd.h>
 
 #define PARAM_MESSAGE "./main -h to get help message\n"
@@ -31,8 +31,9 @@ int main(int argc, char** argv){
 	}
 
 	long count=0;
-
-
+	int* old;
+	int* new;
+	int i,flag;
 	switch(algo){
 		case 0:
 		    count = generate_permutations_by_dict(n);
@@ -48,11 +49,21 @@ int main(int argc, char** argv){
 			break;
 		case 3:
 		default:
-			count=generate_permutations_by_decrease(n);
-			printf("[+] Default Decrease,Permutations(%d)=%ld\n",n,count);
+			old = (int*)malloc(n*sizeof(int));
+			new = (int*)malloc(n*sizeof(int));
+			for(i=0;i<n;i++) 
+				old[i]=i+1;
+			print_array_line(old,n);
+			count=1;
+			while(get_next_permutation_by_increase(old,new,n)==1){
+				print_array_line(new,n);
+				//scanf("%d",&flag);
+				//printf("Edit_distance=%d\n",edit_distance(old,new,n,n));
+				memcpy(old,new,n*sizeof(int));
+				count++;
+			}
+			printf("[+] Default increase one by one,Permutations(%d)=%ld\n",n,count);
 			break;
-			break;
-
 	}
 
 	//int r=2;
