@@ -48,6 +48,9 @@ int main(int argc, char** argv){
 			printf("[+]Decrease,Permutations(%d)=%ld\n",n,count);
 			break;
 		case 3:
+			count=generate_permutations_by_neighbor(n);
+			printf("[+]Neighbor,Permutations(%d)=%ld\n",n,count);
+			break;
 		default:
 			old = (int*)malloc(n*sizeof(int));
 			new = (int*)malloc(n*sizeof(int));
