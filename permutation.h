@@ -4,4 +4,5 @@
 #include "dict.h"
 #include "increase_decrease.h"
 #include "neighbor.h"
+#include "binary.h"
 #endif

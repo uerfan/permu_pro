@@ -24,6 +24,7 @@ int main(int argc, char** argv){
 			fprintf(stderr, "            1: increase\n");
 			fprintf(stderr, "            2: decrease\n");
 			fprintf(stderr, "            3: neighbor\n");
+			fprintf(stderr, "            4: binary_dict\n");
 			fprintf(stderr, "  -h        this help message\n");
 			return 0;
 		}
@@ -48,6 +49,10 @@ int main(int argc, char** argv){
 			break;
 		case 3:
 			count=generate_permutations_by_neighbor(n);
+			printf("[+]Neighbor,Permutations(%d)=%ld\n",n,count);
+			break;
+		case 4:
+			count=generate_permutations_by_binary_dict(n);
 			printf("[+]Neighbor,Permutations(%d)=%ld\n",n,count);
 			break;
 		default:
