@@ -1,5 +1,4 @@
 #include "permutation.h"
-#include "similar.h"
 #include <unistd.h>
 
 #define PARAM_MESSAGE "./main -h to get help message\n"
@@ -52,26 +51,10 @@ int main(int argc, char** argv){
 			printf("[+]Neighbor,Permutations(%d)=%ld\n",n,count);
 			break;
 		default:
-			old = (int*)malloc(n*sizeof(int));
-			new = (int*)malloc(n*sizeof(int));
-			for(i=0;i<n;i++) 
-				old[i]=i+1;
-			print_array_line(old,n);
-			count=1;
-			while(get_next_permutation_by_increase(old,new,n)==1){
-				print_array_line(new,n);
-				//scanf("%d",&flag);
-				//printf("Edit_distance=%d\n",edit_distance(old,new,n,n));
-				memcpy(old,new,n*sizeof(int));
-				count++;
-			}
-			printf("[+] Default increase one by one,Permutations(%d)=%ld\n",n,count);
+			count = generate_permutations_by_dict(n);
+		    printf("[+]Default Dictionary,Permutations(%d)=%ld\n",n,count);
 			break;
 	}
-
-	//int r=2;
-	//print_array_line(get_rth_permutation_by_increase(n,0),n);
-	//print_array_line(get_rth_permutation_by_increase(n,r),n);
 
 	return 0;
 
