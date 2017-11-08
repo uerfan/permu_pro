@@ -47,9 +47,9 @@ int main(int argc, char** argv){
 			printf("[+]Decrease,Permutations(%d)=%ld\n",n,count);
 			break;
 		case 3:
-			count=generate_permutations_by_neighbor(n);
-			printf("[+]Neighbor,Permutations(%d)=%ld\n",n,count);
-			break;
+			//count=generate_permutations_by_neighbor(n);
+			//printf("[+]Neighbor,Permutations(%d)=%ld\n",n,count);
+			//break;
 		default:
 			count = generate_permutations_by_dict(n);
 		    printf("[+]Default Dictionary,Permutations(%d)=%ld\n",n,count);
