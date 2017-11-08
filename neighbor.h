@@ -3,6 +3,7 @@
 
 #include <stdlib.h>
 #include <stdio.h>
+#include <stdbool.h>
 
 void neighbor_swap(int *per, bool* arr, int pos) {
 
@@ -99,8 +100,8 @@ long generate_permutations_by_neighbor(int N)
 
 	}
 
-	delete []permutations;
-	delete []arrow;
+	free(permutations);
+	free(arrow);
 
 	return count;
 }

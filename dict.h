@@ -32,13 +32,13 @@ long generate_permutations_by_dict(int N) {
         print_array(permutations, N);
 	    count++;
 
-        for(k = N - 2; k >= 0 && permutations[k] > permutations[k+1]; k--);
+        for(k = N - 2; k >= 0 && permutations[k] > permutations[k+1]; k--); // 从后往前查找第一个递减
         if(k < 0) break;
-        for(j = N - 1; j > k && permutations[j] < permutations[k]; j--);
+        for(j = N - 1; j > k && permutations[j] < permutations[k]; j--);    // 查找第k个之后比它大的最小数
 
-        swap(permutations, k, j);
+        swap(permutations, k, j);                                           // 交换第k个数和找到的最小数
 
-        for (int i = k + 1, j = N - 1; i < j; i++, j--) {
+        for (int i = k + 1, j = N - 1; i < j; i++, j--) {                   // 翻转第k个数之后的序列
             swap(permutations, i, j);  
         }
     }
