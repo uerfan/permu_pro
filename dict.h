@@ -29,7 +29,9 @@ long generate_permutations_by_dict(int N) {
 
     int i = 0, j = 0, k = 0;
     while(1) {
+    #ifdef _PRINT_
         print_array(permutations, N);
+    #endif
 	    count++;
 
         for(k = N - 2; k >= 0 && permutations[k] > permutations[k+1]; k--); // 从后往前查找第一个递减

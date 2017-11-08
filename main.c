@@ -1,5 +1,6 @@
 #include "permutation.h"
 #include <unistd.h>
+#include <time.h>
 
 #define PARAM_MESSAGE "./main -h to get help message\n"
 
@@ -35,36 +36,87 @@ int main(int argc, char** argv){
 	int* old;
 	int* new;
 	int i,flag;
+
+	#ifdef _TEST_
+		clock_t t1,t2;
+	#endif
+	
+	
 	switch(algo){
 		case 0:
+		#ifdef _TEST_
+			t1 = clock();
+		#endif
 		    count = generate_permutations_by_dict(n);
+		#ifdef _TEST_
+			t2 = clock();
+		#endif
 		    printf("[+]Dictionary,Permutations(%d)=%ld\n",n,count);
 			break;
 		case 1:
+		#ifdef _TEST_
+			t1 = clock();
+		#endif
 			count=generate_permutations_by_increase(n);
+		#ifdef _TEST_
+			t2 = clock();
+		#endif
 			printf("[+]Increase,Permutations(%d)=%ld\n",n,count);
 			break;
 		case 2:
+		#ifdef _TEST_
+			t1 = clock();
+		#endif
 			count=generate_permutations_by_decrease(n);
+		#ifdef _TEST_
+			t2 = clock();
+		#endif
 			printf("[+]Decrease,Permutations(%d)=%ld\n",n,count);
 			break;
 		case 3:
+		#ifdef _TEST_
+			t1 = clock();
+		#endif
 			count=generate_permutations_by_neighbor(n);
+		#ifdef _TEST_
+			t2 = clock();
+		#endif
 			printf("[+]Neighbor,Permutations(%d)=%ld\n",n,count);
 			break;
 		case 4:
+		#ifdef _TEST_
+			t1 = clock();
+		#endif
 			count=generate_permutations_by_binary_dict(n);
+		#ifdef _TEST_
+			t2 = clock();
+		#endif
 			printf("[+]Binary_Dict,Permutations(%d)=%ld\n",n,count);
 			break;
 		case 5:
+		#ifdef _TEST_
+			t1 = clock();
+		#endif
 			count=generate_permutations_by_binary_new(n);
+		#ifdef _TEST_
+			t2 = clock();
+		#endif
 			printf("[+]Binary_New,Permutations(%d)=%ld\n",n,count);
 			break;
 		default:
+		#ifdef _TEST_
+			t1 = clock();
+		#endif
 			count = generate_permutations_by_dict(n);
+		#ifdef _TEST_
+			t2 = clock();
+		#endif
 		    printf("[+]Default Dictionary,Permutations(%d)=%ld\n",n,count);
 			break;
 	}
+#ifdef _TEST_
+	printf("CPU time is %gs\n",(double)(((double)(t2-t1))/CLOCKS_PER_SEC));
+#endif
 
 	return 0;
 
