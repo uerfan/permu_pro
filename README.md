@@ -83,7 +83,7 @@ count=generate_permutations_by_decrease(n);
 printf("[+]Decrease,Permutations(%d)=%ld\n",n,count);
 ```
 
-**v3. 邻位对换全排列生成算法 neighbor.h**
+**3. 邻位对换全排列生成算法 neighbor.h**
 
 ```
 count=generate_permutations_by_neighbor(n);
