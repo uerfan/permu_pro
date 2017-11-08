@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"b",
+				"binarys"
+			],
+			[
 				"in",
 				"increase\t(main.c)"
 			],
@@ -95,23 +99,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "increase_decrease.h",
-			"settings":
-			{
-				"buffer_size": 3544,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dict.h",
-			"settings":
-			{
-				"buffer_size": 963,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -155,10 +142,18 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/jeffly/Documents/THU2017/Classes/组合数学/permutations_generator"
+		"/E/Demo/Course_Combinatorics/permu_pro"
 	],
 	"file_history":
 	[
+		"/E/Demo/Course_Combinatorics/permu_pro/README.md",
+		"/E/Demo/Course_Combinatorics/permu_pro/Makefile",
+		"/E/Demo/Course_Combinatorics/permu_pro/binary.h",
+		"/E/Demo/Course_Combinatorics/permu_pro/dict.h",
+		"/E/Demo/Course_Combinatorics/permu_pro/permutation.h",
+		"/E/Demo/Course_Combinatorics/permu_pro/main.c",
+		"/E/Demo/Course_Combinatorics/permu_pro/neighbor.h",
+		"/E/Demo/Course_Combinatorics/permu_pro/increase_decrease.h",
 		"/Users/jeffly/Documents/THU2017/Classes/组合数学/permutations_generator/permutation.h",
 		"/Users/jeffly/Documents/THU2017/Classes/组合数学/permutations_generator/main.c",
 		"/Users/jeffly/Documents/THU2017/Classes/组合数学/permutations_generator/Makefile",
@@ -220,7 +215,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 52.0
 	},
 	"find_in_files":
 	{
@@ -235,6 +230,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<<",
+			">>",
+			"<<",
 			"transform_rank_to_permutation",
 			"_ps",
 			"__m128",
@@ -272,78 +270,18 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "increase_decrease.h",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3544,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								735,
-								735
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 366.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "dict.h",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 963,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								243,
-								243
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/C++/C++.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 30.0
 	},
 	"input":
 	{
-		"height": 24.0
+		"height": 30.0
 	},
 	"layout":
 	{
@@ -376,7 +314,7 @@
 	"project": "permutations_gen.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 55.0
 	},
 	"save_all_on_build": true,
 	"select_file":
