@@ -147,6 +147,7 @@
 	"file_history":
 	[
 		"/E/Demo/Course_Combinatorics/permu_pro/README.md",
+		"/E/Demo/Course_Combinatorics/permu_pro/README.html",
 		"/E/Demo/Course_Combinatorics/permu_pro/Makefile",
 		"/E/Demo/Course_Combinatorics/permu_pro/binary.h",
 		"/E/Demo/Course_Combinatorics/permu_pro/dict.h",
@@ -215,7 +216,7 @@
 	],
 	"find":
 	{
-		"height": 52.0
+		"height": 30.0
 	},
 	"find_in_files":
 	{
