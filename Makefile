@@ -4,9 +4,6 @@ CFLAG=-O3
 
 dir = .
 
-$(rm -f)
-res=$?
-
 all: main
 
 main: main.c
@@ -14,8 +11,4 @@ main: main.c
 
 .PHONY: clean
 clean:
-ifeq ($res, 0)
-	rm -f $(dir)/main
-else
-	del	main.exe
-endif
+	rm -f $(dir)/main || del main.exe
