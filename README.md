@@ -25,11 +25,14 @@ Usage: ./main [options]
 Options:
   -n INT    size of the full permutations
   -a INT    type of algorithm to generate permutations
-            0: dict            字典序
-            1: increase        递增进位制
-            2: decrease        递减进位制
-            3: neighbor        邻位对换
-  -h        this help message  帮助信息
+            0: dict                   字典序
+            1: increase               递增进位制
+            2: decrease               递减进位制
+            3: neighbor               邻位对换
+            4: binary_dict (n <= 32)  等价于字典序法的二进制变换算法
+            5: binary_new  (n <= 32)  新的二进制变换算法
+  -h        this help message         帮助信息
+
 ```
 
 
@@ -37,6 +40,7 @@ Options:
 
 ```
 .
+├── binary.h
 ├── dict.h
 ├── increase_decrease.h
 ├── neighbor.h
@@ -47,6 +51,18 @@ Options:
 ```
 
 ## 文件说明
+
+**0. 基于二进制变换规则的全排列生成算法 binary.h**
+
+```
+// 等价于字典序法的二进制变换规则
+count=generate_permutations_by_binary_dict(n);
+printf("[+]Binary_Dict,Permutations(%d)=%ld\n",n,count);
+
+// 新的二进制变换规则
+count=generate_permutations_by_binary_new(n);
+printf("[+]Binary_New,Permutations(%d)=%ld\n",n,count);
+```
 
 **1. 字典序全排列生成算法 dict.h**
 
