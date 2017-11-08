@@ -141,12 +141,15 @@ long generate_permutations_by_increase(int N){
 		rank[i]=0;
 		permutations[i]=i+1;
 	}
-
+#ifdef _PRINT_
 	print_array_line(permutations,N);
+#endif
 	count=1;
 	while(rank_increase_plus(rank,N-1)==1){
 		transform_rank_to_permutation_increase(rank,permutations,N);
+#ifdef _PRINT_
 		print_array_line(permutations,N);
+#endif
 		count++;
 	}
 
@@ -186,12 +189,16 @@ long generate_permutations_by_decrease(int N){
 		rank[i]=0;
 		permutations[i]=i+1;
 	}
-
+#ifdef _PRINT_
 	print_array_line(permutations,N);
+#endif
 	count=1;
 	while(rank_decrease_plus(rank,N-1)==1){
 		transform_rank_to_permutation_decrease(rank,permutations,N);
+
+#ifdef _PRINT_
 		print_array_line(permutations,N);
+#endif
 		count++;
 	}
 

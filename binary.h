@@ -101,7 +101,9 @@ long generate_permutations_by_binary_dict(int N) {
 	}
     
     while(1) {
+    #ifdef _PRINT_
         print_permutations(binarys, N);
+    #endif
 	    count++;
 
         if(find_the_next_by_binary_dict(binarys, N, zp) == 0) {
@@ -125,7 +127,9 @@ long generate_permutations_by_binary_new(int N) {
     
     int i = 0, x = 0;
     while(1) {
+    #ifdef _PRINT_
         print_permutations(binarys, N);
+    #endif
 	    count++;
 
 	    if(is_last(binarys, N)) {

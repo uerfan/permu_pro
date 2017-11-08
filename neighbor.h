@@ -76,21 +76,27 @@ long generate_permutations_by_neighbor(int N)
 	}
 	
 	while(true) {
+	#ifdef _PRINT_
 		print_array(permutations, N);
+	#endif
 		count++;
 
 		if (permutations[N - 1] == N)
 		{
 			for(int i = N - 1; i > 0; i--) {
 				neighbor_swap(permutations, arrow, i);
+			#ifdef _PRINT_
 				print_array(permutations, N);
+			#endif
 				count++;
 			}
 		} else {
 
 			for(int i = 0; i < N - 1; i++) {
 				neighbor_swap(permutations, arrow, i);
+			#ifdef _PRINT_
 				print_array(permutations, N);
+			#endif
 				count++;
 			}
 		}
