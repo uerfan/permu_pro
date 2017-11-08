@@ -20,15 +20,16 @@ make
 运行参数如下：
 
 ```
-./main -n INT -a INT
-
--n: size of the full permutations
--a INT    type of algorithm to generate 
-          0: dict 字典序
-          1: increase 递增进位制
-          2: decrease 递减进位制
-          3: neighbor 邻位对换
--h this help message 得到帮助信息
+#./main -h
+Usage: ./main [options]
+Options:
+  -n INT    size of the full permutations
+  -a INT    type of algorithm to generate permutations
+            0: dict            字典序
+            1: increase        递增进位制
+            2: decrease        递减进位制
+            3: neighbor        邻位对换
+  -h        this help message  帮助信息
 ```
 
 
